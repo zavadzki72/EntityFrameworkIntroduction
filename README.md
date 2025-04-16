@@ -262,3 +262,7 @@ public class BookService : IBookService
 3. **Consultas Otimizadas**: Use Include apenas quando necessário e projete resultados para DTOs
 4. **Transações**: Use transações para operações que envolvem múltiplas entidades
 5. **Migrações**: Mantenha as migrações versionadas no controle de código-fonte
+
+### Apresentação
+
+[Google Docs](https://docs.google.com/presentation/d/12y2c3lwxaGc3s3AY1Ox78-DLGJHdYUpYskzou9wPyyY/edit?usp=sharing)
