@@ -16,5 +16,6 @@ namespace Biblioteca.Domain.Entities
         public int PublicationYear { get; private set; }
         public Category Category { get; private set; }
         public List<Author> Authors { get; private set; }
+        public List<Loan> Loans { get; private set; } = [];
     }
 }
