@@ -13,6 +13,8 @@
             Book = book;
         }
 
+        private Loan() { }
+
         public string Username { get; private set; }
         public DateTime LoanDate { get; private set; }
         public DateTime ReturnDate { get; private set; }

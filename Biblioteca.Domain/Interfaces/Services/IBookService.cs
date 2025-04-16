@@ -8,6 +8,6 @@ namespace Biblioteca.Domain.Interfaces.Services
         Task UpdateBook(int id, UpdateBook updateBook);
         Task DeleteBook(int id);
         Task<List<BookResponse>> GetAllBooks();
-        Task<BookResponse> GetBook(int id);
+        Task<BookResponse?> GetBook(int id);
     }
 }

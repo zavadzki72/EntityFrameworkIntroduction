@@ -8,6 +8,8 @@
             Books = books;
         }
 
+        private Author() { }
+
         public string Name { get; private set; }
         public List<Book> Books { get; private set; }
     }
